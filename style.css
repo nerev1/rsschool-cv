@@ -1,0 +1,76 @@
+.page {
+    background-color: #b22222;
+    height: 100%;
+    font: 24px / 30px "Arial", sans-serif;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: darkred;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 50px 5%;
+}
+
+.photo {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.personal_data {
+    flex-grow: 1;
+    margin: 0 0 0 5%;
+}
+
+.my_name {
+    font: 50px / 60px "Arial", sans-serif;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.contacts--list {
+    list-style-type: none;
+}
+
+.contacts--item {
+    font-style: italic;
+    margin: 0 0 0 3%;
+}
+
+.contacts--link {
+    text-decoration: none;
+    font-style: normal;
+    color: orange;
+}
+
+.contacts--link:hover {
+    color: yellow;
+}
+
+.main {
+    width: 90%;
+    padding: 5%;
+}
+
+.about_me {
+
+}
+
+.info_header {
+    text-transform: uppercase;
+    color: lightsalmon;
+}
+
+.info_text {
+    margin: 0 0 0 2%;
+    text-indent: 5%;
+}
+
+.info_list {
+    list-style-type: square;
+}
